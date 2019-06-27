@@ -11,16 +11,16 @@
 		<targetJavaProject>${basedir}/src/main/java</targetJavaProject>
 
 		<!-- targetMapperPackage：声明MBG生成XxxMapper接口后存放的package位置 -->
-		<targetMapperPackage>com.atguigu.shop.mappers</targetMapperPackage>
+		<targetMapperPackage>com.cyjz.dao.mapper</targetMapperPackage>
 
 		<!-- targetModelPackage：声明MBG生成实体类后存放的package位置 -->
-		<targetModelPackage>com.atguigu.shop.entities</targetModelPackage>
+		<targetModelPackage>com.cyjz.pojo</targetModelPackage>
 
 		<!-- targetResourcesProject：声明存放资源文件和XML配置文件的目录位置 -->
 		<targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
 
 		<!-- targetXMLPackage：声明存放具体XxxMapper.xml文件的目录位置 -->
-		<targetXMLPackage>mappers</targetXMLPackage>
+		<targetXMLPackage>mybatis/mapper</targetXMLPackage>
 
 		<!-- 通用Mapper的版本号 -->
 		<mapper.version>4.0.0-beta3</mapper.version>
